@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		752D6DF3258471CC00E999E1 /* OpenSSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B05BFF256E801D00FB91E0 /* OpenSSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB3C57F2BB5C0E90035AA74 /* asn1_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F30ED82AA90AEC00AFF335 /* asn1_mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		752D6E1C2584722900E999E1 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 751BE47925845DB800E66ABE /* libcrypto.a */; platformFilter = maccatalyst; };
 		752D6E1D2584722B00E999E1 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 751BE47B25845DC300E66ABE /* libssl.a */; platformFilter = maccatalyst; };
 		755D81352BB0798800F207B0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 755D81342BB0798800F207B0 /* PrivacyInfo.xcprivacy */; };
@@ -615,7 +615,6 @@
 		75E9DE8B2AA91B5E003C1BE7 /* shim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shim.h; path = iphonesimulator/include/OpenSSL/shim.h; sourceTree = "<group>"; };
 		75E9DE8C2AA91B5E003C1BE7 /* store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = store.h; path = iphonesimulator/include/OpenSSL/store.h; sourceTree = "<group>"; };
 		75E9DE8D2AA91B5E003C1BE7 /* trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trace.h; path = iphonesimulator/include/OpenSSL/trace.h; sourceTree = "<group>"; };
-		75E9DE8E2AA91B5E003C1BE7 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = iphonesimulator/include/OpenSSL/asn1_mac.h; sourceTree = "<group>"; };
 		75E9DE8F2AA91B5E003C1BE7 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = iphonesimulator/include/OpenSSL/x509_vfy.h; sourceTree = "<group>"; };
 		75E9DE902AA91B5E003C1BE7 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macros.h; path = iphonesimulator/include/OpenSSL/macros.h; sourceTree = "<group>"; };
 		75E9DE912AA91B5E003C1BE7 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = iphonesimulator/include/OpenSSL/srtp.h; sourceTree = "<group>"; };
@@ -879,7 +878,6 @@
 		75F30FAD2AA90E1800AFF335 /* tserr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tserr.h; path = iphoneos/include/OpenSSL/tserr.h; sourceTree = "<group>"; };
 		75F30FAE2AA90E1800AFF335 /* rsaerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rsaerr.h; path = iphoneos/include/OpenSSL/rsaerr.h; sourceTree = "<group>"; };
 		75F30FAF2AA90E1800AFF335 /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decoder.h; path = iphoneos/include/OpenSSL/decoder.h; sourceTree = "<group>"; };
-		75F30FB02AA90E1800AFF335 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = iphoneos/include/OpenSSL/asn1_mac.h; sourceTree = "<group>"; };
 		75F30FB12AA90E1800AFF335 /* bnerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bnerr.h; path = iphoneos/include/OpenSSL/bnerr.h; sourceTree = "<group>"; };
 		75F30FB22AA90E1800AFF335 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = iphoneos/include/OpenSSL/opensslconf.h; sourceTree = "<group>"; };
 		75F30FB32AA90E1800AFF335 /* rc5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rc5.h; path = iphoneos/include/OpenSSL/rc5.h; sourceTree = "<group>"; };
@@ -1329,7 +1327,6 @@
 			children = (
 				75B05C16256E826800FB91E0 /* OpenSSL.h */,
 				75E9DE9A2AA91B5E003C1BE7 /* aes.h */,
-				75E9DE8E2AA91B5E003C1BE7 /* asn1_mac.h */,
 				75E9DEA92AA91B5E003C1BE7 /* asn1.h */,
 				75E9DEBC2AA91B5F003C1BE7 /* asn1err.h */,
 				75E9DE982AA91B5E003C1BE7 /* asn1t.h */,
@@ -1481,7 +1478,6 @@
 			children = (
 				75B05BFF256E801D00FB91E0 /* OpenSSL.h */,
 				75F310202AA90E1A00AFF335 /* aes.h */,
-				75F30FB02AA90E1800AFF335 /* asn1_mac.h */,
 				75F30FD02AA90E1800AFF335 /* asn1.h */,
 				75F30FB82AA90E1800AFF335 /* asn1err.h */,
 				75F30FDA2AA90E1900AFF335 /* asn1t.h */,
@@ -1886,7 +1882,6 @@
 				75F312B72AA90EBD00AFF335 /* dsa.h in Headers */,
 				75F312722AA90EBD00AFF335 /* cterr.h in Headers */,
 				75F312B92AA90EBD00AFF335 /* tserr.h in Headers */,
-				752D6DF3258471CC00E999E1 /* OpenSSL.h in Headers */,
 				75F312652AA90EBD00AFF335 /* cmp.h in Headers */,
 				75F312872AA90EBD00AFF335 /* params.h in Headers */,
 				75F312502AA90EBD00AFF335 /* shim.h in Headers */,
@@ -2325,6 +2320,7 @@
 				75F30F7B2AA90AED00AFF335 /* safestack.h in Headers */,
 				75F30F642AA90AED00AFF335 /* conftypes.h in Headers */,
 				75F30F442AA90AED00AFF335 /* asn1t.h in Headers */,
+				6EB3C57F2BB5C0E90035AA74 /* asn1_mac.h in Headers */,
 				75F30F752AA90AED00AFF335 /* opensslv.h in Headers */,
 				75F30F872AA90AED00AFF335 /* ssl3.h in Headers */,
 				75F30F1C2AA90AED00AFF335 /* blowfish.h in Headers */,
